@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://angelinepho.github.io/tech-portfolio/blog</id>
+    <title>Angeline Pho Blog</title>
+    <updated>2020-10-02T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://angelinepho.github.io/tech-portfolio/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Angeline Pho news and events.</subtitle>
+    <logo>https://angelinepho.github.io/tech-portfolio/undefined</logo>
+    <rights>Copyright © 2020 Your Name Here</rights>
+    <entry>
+        <title type="html"><![CDATA[vGHC 2020]]></title>
+        <id>https://angelinepho.github.io/tech-portfolio/blog/2020/10/02/blog-post.html</id>
+        <link href="https://angelinepho.github.io/tech-portfolio/blog/2020/10/02/blog-post.html"/>
+        <updated>2020-10-02T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>I am using this blog post to document my first Grace Hopper Celebration experience as an ICS-BRAID Scholarship recipient!</strong></p> <p>Currently, I am a 3rd year Computer Science and Informatics student at the University of California, Irvine. I heard alot about ...</p>]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+</feed>

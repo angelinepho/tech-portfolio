@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>vGHC 2020 · Angeline Pho</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="**I am using this blog post to document my first Grace Hopper Celebration experience as an ICS-BRAID Scholarship recipient!**"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="vGHC 2020 · Angeline Pho"/><meta property="og:type" content="website"/><meta property="og:url" content="https://angelinepho.github.io/tech-portfolio/blog/2020/10/02/blog-post"/><meta property="og:description" content="**I am using this blog post to document my first Grace Hopper Celebration experience as an ICS-BRAID Scholarship recipient!**"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/tech-portfolio/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://angelinepho.github.io/tech-portfolio/blog/atom.xml" title="Angeline Pho Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://angelinepho.github.io/tech-portfolio/blog/feed.xml" title="Angeline Pho Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/tech-portfolio/js/scrollSpy.js"></script><link rel="stylesheet" href="/tech-portfolio/css/main.css"/><script src="/tech-portfolio/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/tech-portfolio/"><h2 class="headerTitle">Angeline Pho</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/tech-portfolio/docs/about" target="_self">About</a></li><li class=""><a href="/tech-portfolio/docs/projects" target="_self">Projects</a></li><li class="siteNavGroupActive"><a href="/tech-portfolio/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/tech-portfolio/blog/2020/10/02/blog-post">vGHC 2020</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/tech-portfolio/blog/2020/10/02/blog-post">vGHC 2020</a></h1><p class="post-meta">October 2, 2020</p><div class="authorBlock"></div></header><div><span><p><strong>I am using this blog post to document my first Grace Hopper Celebration experience as an ICS-BRAID Scholarship recipient!</strong></p>
+<p>Currently, I am a 3rd year Computer Science and Informatics student at the University of California, Irvine. I heard alot about this conference throughout the years from my Computer Science professors and girls I've met through summer coding programs, but I really did not know what to expect (especially given the circumstances under COVID-19). However, I was ecstatic to know that I had the opportunity to participate!</p>
+<p><strong>Day 1:</strong> I met my pod—<em>Dreamforce</em>—a group of 4 other girls that I would check in with throughout the conference. They were really extremely nice and helpful throughout the whole process. Alot of them shared their internship experiences and tips with the rest of us. Then at 11:30, I went to my first session, which was with Michelle Zatlyn (Co-founder &amp; COO of Cloudflare) on &quot;Lessons Learned in Founding a Meaningful, Thriving Business.&quot; The 6 lessons she coined important to running a business was solving a big meaningful problem, getting great people to come work for you, retaining all of your great people, building a good business, picking the right investors, and scaling yourself.</p>
+<p><strong>Day 2:</strong> I met up with my pod again and had some fun discussions. I was so excited for my podmate because she had 2 interviews that day! After we wrapped up our check in, I went to a workshop about Product Management (PM). PM is a topic I am really intrigued by and would definitely consider pursuing in the future. The presenters talked about how they feared going into PM because they would lose their technical skills, but they explained how a PM role can look different from company to company and some positions can be very technical and require you to program. I thought that was interesting because I was also scared of going into PM and not using my technical background as much. They also shared that statistically only 5% of PMs are females which honestly shocked me because I've met another female PM in the past who said at her company it's 50/50. After, we worked on creating solutions for a persona of a disabled mid-career mother in breakout rooms. I was again surprised by the individuals in my breakout room because they were a lot older than me. It was fun because I took the lead in the breakout room which is so unlike myself. Overall, great experience :)</p>
+<p><strong>Day 3:</strong> This was the first day of classes at UCI. I didn't do too many GHC things besides checking in with my pod. I tried to join workshops, but they kept capping at 500 even though I was waiting their 30mins before the start time. However, I really liked all my classes and I hope this quarter goes well!</p>
+<p><strong>Day 4:</strong> This was technically the last day of the GHC? Either way, I was exhausted and had to wake up at 5am to get some work done :( I attended two workshops this day, one about Chatbots led by Wellsfargo and another about creating technical portfolios. I was interested in the chatbot workshop because recently I've seen a lot of people create apps that use chatbots as its main feature. The Wellsfargo team walked us through the process of making a chatbot primarily using the IBM Watson Assistant as the foundation and integrating their own banking stuff later. I was able to learn about Natural Language Processing (NLP), Natural Language Understanding (NLU), and Machine Learning (ML). NLP is the processing of the actual text and subjective information, NLU is the process of translating the text into a machine understandable model, and ML which is training the machine to recognize patterns to provide answers using data. It is always awesome to see the basics we learn in school being applied on such a large scale that deals with people's personal banking information. Lastly, I went to the technical portfolio workshop! Thanks to that I am able to write this blog post right now! I was already somewhat familiar with github, but they introduced the workflow feature and Markdown files to me making github a little easier to use. Then, at 4:00pm we had our final pod check in where we decorated a slide together.</p>
+<p><strong>This was such a great opportunity to expand my network and knowledge of technology. I was able to learn alot from the workshops and I wish I could've gone to more technical ones as well. The people I've met were so amazing. It's inspiring to see people who are not much older than me achieve so much. There's still so much I have to explore technically and in my career. I hope that one day I'll get the opportunity to go to GHC in person! Thank you ICS-BRAID Scholarship Givers!</strong></p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/tech-portfolio/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="social"><a href="https://www.linkedin.com/in/angeline-pho-19743319a" target="_blank" class="social"><img alt="LinkedIn" src="/tech-portfolio/img/linkedin.svg"/></a><a href="https://twitter.com/" target="_blank" class="social"><img alt="Twitter" src="/tech-portfolio/img/twitter.svg"/></a><a href="https://github.com/angelinepho" target="_blank" class="social"><img alt="GitHub" src="/tech-portfolio/img/github.svg"/></a></section><section class="copyright">Copyright © 2020 Your Name Here. Created with Docusaurus.</section></footer></div></body></html>
